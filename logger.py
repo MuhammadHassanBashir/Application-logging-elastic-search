@@ -34,6 +34,9 @@ logger =
 Logger(service='testing',logs_url='http://34.29.169.192:24224/myapp.logs',log_index=log_index,transaction_i
 d='123',user_id='my_user')
 logger.log('logs from Hassan Bashir disearchmt-dev')
+
+
+
 1. Configuration of Logging in Application:
 Define a Logger class with methods to log messages and send them to the specified endpoint.
 Configure the logger to include necessary details such as timestamp, service, log level, message,
